@@ -35,7 +35,7 @@ DEPENDS = "\
 "
 
 # Note: Same as SRCREV; Overide in meta-<product>
-PV = "1.1.0"
+PV = "1.2.0"
 
 SRC_URI = "\
     gitsm://github.com/elk-audio/sushi;protocol=https;nobranch=1 \
