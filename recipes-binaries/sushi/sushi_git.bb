@@ -37,7 +37,7 @@ DEPENDS = "\
 PV = ""
 
 SRC_URI = "\
-    gitsm://github.com/elk-audio/sushi;protocol=https;nobranch=1 \
+    gitsm://github.com/elk-audio/sushi;protocol=https;branch=develop \
     file://sushi \
 "
 
