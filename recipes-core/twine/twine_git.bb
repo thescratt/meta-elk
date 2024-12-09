@@ -11,12 +11,12 @@ DEPENDS += "\
 "
 
 # The specific version should be overidden in the meta-product layers
-PV = "0.4.0"
+PV = "1.0.0"
 
-SRC_URI = "gitsm://github.com/elk-audio/twine;protocol=https;nobranch=1"
+SRC_URI = "gitsm://github.com/elk-audio/twine;protocol=https;branch=develop"
 
 # SRCREV should be mentioned in the product layer as it will be specific to that.
-SRCREV = "a799cf86cdfa1687a1bd497df94fddeb6cf114e4"
+SRCREV = "be2191a80c83a01d211ae501af04a1acfd6cee22"
 
 S = "${WORKDIR}/git"
 
